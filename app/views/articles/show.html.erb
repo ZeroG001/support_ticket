@@ -1,5 +1,11 @@
 <p id="notice"><%= notice %></p>
 
+<% if params %>
+	<%= params.each do |k,v|  %>
+		<%= puts v %>
+	<% end %>
+<% end %>
+
 <p>
   <strong>Title:</strong>
   <%= @article.title %>
