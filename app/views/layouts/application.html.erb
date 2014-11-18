@@ -7,6 +7,19 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<nav class="navbar navbar-default" role="navigation">
+		<ul class="nav navbar-nav">
+			<a class="navbar-brand"> Articles </a>
+			<li> 
+				<%= link_to "Articles", "#" %> 
+			</li>
+
+			<li>
+				<%= link_to "Support Tickets" %>
+			</li>
+		</ul>
+
+	</nav>
 
 <%= yield %>
 
